@@ -1,0 +1,10 @@
+phone_dict = {
+    "ali" : 21139874567 ,
+    "ahmed" : 21269834508 ,
+    "omer" : 21593276045
+}
+for name_user in phone_dict:
+# print(phone_dict.keys())
+ print(name_user)
+search = input ("enter name of phone number")
+print(phone_dict[search])

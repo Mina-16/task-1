@@ -1,0 +1,13 @@
+weather_degre = input("inter the weather degre")
+
+
+if float(weather_degre) >= 30:
+    print("it's a hot day. stay hydrated!")
+    if float(weather_degre) >= 20 and float(weather_degre) <= 29 :
+        print("it's a warm day. enjoy the weather!")
+        if float(weather_degre) >= 10 and float(weather_degre) <= 19:
+            print("it's a cold day. wear the jacket!")
+            if float(weather_degre) <= 10:
+                print("it's a cold day. stay warm!")
+            else:
+                print("no answer")

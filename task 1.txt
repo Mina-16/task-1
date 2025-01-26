@@ -1,0 +1,7 @@
+budget = 40
+apple = 10
+banana = 7
+chery = 15
+all_item = apple + banana + chery
+result = budget - all_item
+print(result)

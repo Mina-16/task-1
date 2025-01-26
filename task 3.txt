@@ -1,0 +1,9 @@
+name_student = {
+    "ali" : {"arabic" : 92 , "english" : 96 , "math": 93},
+    "ahmed" : {"arabic" : 87 , "english" : 83 , "math": 73},
+    "omer" : {"arabic" : 94 , "english" : 81 , "math": 75}
+}
+avredge_ali = name_student["ali"]["arabic"] + name_student["ali"]["english"] + name_student["ali"]["math"]
+avredge_ahmed = name_student["ahmed"]["arabic"] + name_student["ahmed"]["english"] + name_student["ahmed"]["math"]
+avredge_omer = name_student["omer"]["arabic"] + name_student["omer"]["english"] + name_student["omer"]["math"]
+print(f"ali = {avredge_ali} \n ahmed = {avredge_ahmed} \n omer = {avredge_omer}")
