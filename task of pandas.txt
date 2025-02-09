@@ -1,0 +1,12 @@
+import pandas as pd
+studente_data = [
+    {'id': 1 ,'name': 'Alice' ,'age': 20 ,'grade': 'A','marks': 85},
+    {'id': 2 ,'name': 'Bob' ,'age': 22 ,'grade': 'B','marks': 78},
+    {'id': 3 ,'name': 'Charlie' ,'age': 19 ,'grade': 'A','marks': 92},
+    {'id': 4 ,'name': 'David','age': 21 ,'grade': 'C','marks': 65},
+    {'id': 5 ,'name': 'Eva' ,'age': 20 ,'grade': 'B','marks': 74}
+]
+data = pd.DataFrame(studente_data)
+print(data.iloc[0:4])
+print(data[['name','marks']])
+print(data.loc[data['grade'] == 'A'])

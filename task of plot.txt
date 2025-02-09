@@ -1,0 +1,10 @@
+import matplotlib.pyplot as plt
+
+x = ['S', 'M', 'T', 'W', 'T', 'F', 'S']
+y = [20, 19, 25, 16, 24, 18, 20]
+
+plt.plot(x, y, marker='o', linestyle='--', color='b')
+plt.title('the weather in the week')
+plt.xlabel('day')
+plt.ylabel('temperature')
+plt.show()
